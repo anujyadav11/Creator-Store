@@ -13,6 +13,6 @@ public class CreatorStoreApplication {
         dotenv.entries().forEach((entry) -> System.setProperty(
                 entry.getKey(), entry.getValue()
         ));
-        SpringApplication.run(CreatorStoreApplication.class, args);
+        SpringApplication.run(CreatorStoreApplication.class, args);  
     }
 }
