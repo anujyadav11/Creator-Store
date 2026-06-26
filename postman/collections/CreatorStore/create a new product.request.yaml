@@ -1,0 +1,14 @@
+$kind: http-request
+name: create a new product
+url: http://localhost:8080/api/products
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "Stickers",
+        "stockQuantity": 2000,
+        "price": 99,
+        "category": "Accessories"
+    }
+order: 1782408843176

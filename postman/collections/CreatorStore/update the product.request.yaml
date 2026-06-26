@@ -1,0 +1,16 @@
+$kind: http-request
+name: update the product
+url: http://localhost:8080/api/products/2
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+        "id": 2,
+        "name": "Stickers",
+        "description": "Viral product from instagram",
+        "category": "Accessories",
+        "price": 150,
+        "stockQuantity": 9000
+    }
+order: 2201546072194811
